@@ -1,0 +1,81 @@
+/* form validation styles */
+.error-text {
+    color: red;
+    font-size: 16px;
+}
+
+/* show hide password styles */
+.password-input {
+    position: relative;
+    display: inline-block;
+}
+#toggle-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#showpassword {
+    height: 60px;
+}
+
+/* accordion styles */
+/* .acccrodion {
+    max-width: 800px;
+    width: 100%;
+    margin: 20px auto;
+}
+.container {
+    position: relative;
+    background-color: lightblue;
+    margin: 10px;
+}
+.accrordion-title {
+    position: relative;
+    padding: 10px;
+}
+.accrordion-title::before {
+    content:  '+';
+    position: absolute;
+    top: 50%;
+    right:20px;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
+.content {
+    position: relative;
+    background-color: #fff;
+    height: 0;
+    overflow: hidden;
+    font-size: 20px;
+    transition: 0.7s;
+}
+
+.container.active .content {
+    height: 100px;
+    padding-top: 25px;
+}
+
+.container.active .accrordion-title::before {
+    content: '-';
+    font-size: 30px;
+} */
+
+/* filter */
+.container {
+    max-width:800px;
+    width: 100%;
+}
+.search-block input {
+    width: 100%;
+}
+.user-list img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.user-list li.active {
+    display: none;
+}

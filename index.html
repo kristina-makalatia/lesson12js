@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson12</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="POST" id="registration">
+        <div>
+            <input type="text" name="username" id="username" placeholder="Username...">
+            <div class="error-text" id="error_username"></div>
+        </div>
+        <div>
+            <input type="email" name="email" id="email" placeholder="Email..">
+            <div class="error-text" id="error_email"></div>
+        </div>
+        <div>
+            <input type="password" name="password" id="password" placeholder="Password">
+            <div class="error-text" id="error_password"></div>
+        </div>
+        <div>
+            <input type="password" name="passw2" id="password2" placeholder="Repeat Password...">
+            <div class="error-text" id="error_passw2"></div>
+        </div>
+        <div>
+            <input type="radio" name="age" id="ageuser">
+            <label for="ageuser"> 18 - 30</label>
+
+            <input type="radio" name="age" id="ageuser2">
+            <label for="ageuser2"> 30 - 40</label>
+            <div class="error-text" id="error_age"></div>
+        </div>
+
+        <div>
+            <input type="checkbox" name="agree" id="agreecheckbox">
+            <label for="agreecheckbox"> I agree terms and Codntidions</label>
+            <div class="error-text" id="error_agree"></div>
+        </div>
+
+        <button type="submit"> Submit</button>
+    </form>
+
+
+    <!-- show/hide password -->
+    <div class="password-input">
+        <input type="password" id="showpassword" name="passw" placeholder="Password">
+        <i id="toggle-icon" class="fa-solid fa-eye"></i>
+    </div>
+
+
+    <!-- Accordion -->
+    <!-- <div class="accordion-body">
+        <div class="acccrodion">
+            <h1>Questions</h1>
+
+            <div class="container">
+                <div class="accrordion-title"> Accordion item#1</div>
+                <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ut itaque iste amet officiis natus fugiat sed nostrum culpa eligendi, quas, totam neque magnam quasi rerum. Nostrum perspiciatis adipisci numquam.</div>
+            </div>
+
+            <div class="container">
+                <div class="accrordion-title"> Accordion item#2</div>
+                <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ut itaque iste amet officiis natus fugiat sed nostrum culpa eligendi, quas, totam neque magnam quasi rerum. Nostrum perspiciatis adipisci numquam.</div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- filter-->
+    <div class="container">
+        <div class="search-block">
+            <h4>User Filter</h4>
+            <input type="text" id="filter" placeholder="Search">
+        </div>
+        <ul id="result" class="user-list">
+           
+        </ul>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
